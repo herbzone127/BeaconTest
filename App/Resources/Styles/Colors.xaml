@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="Primary">#0000A2</Color>
+    <Color x:Key="PrimaryDark">#060076</Color>
+    <Color x:Key="Secondary">#D1B283</Color>
+    <Color x:Key="Tertiary">#F9D6B2</Color>
+    <Color x:Key="Accent">#01A3FF</Color>
+    <Color x:Key="White">White</Color>
+    <Color x:Key="Black">#242424</Color>
+    <Color x:Key="Light">White</Color>
+    <Color x:Key="Heading">#000039</Color>
+    <Color x:Key="Subheading">#4D4D74</Color>
+    <Color x:Key="Body">#000039</Color>
+    <Color x:Key="Link">#0000A2</Color>
+    <Color x:Key="Danger">#FB7667</Color>
+    <Color x:Key="Warning">#FFA500</Color>
+    <Color x:Key="Success">#24815B</Color>
+    <Color x:Key="Info">#E5E5F6</Color>
+    <Color x:Key="Gray1">#4D4D4D</Color>
+    <Color x:Key="Gray2">#727272</Color>
+    <Color x:Key="Gray3">#9D9D9D</Color>
+    <Color x:Key="Gray4">#BEBEBE</Color>
+    <Color x:Key="Gray5">#DBDADA</Color>
+    <Color x:Key="Gray6">#EEEEEE</Color>
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDark}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource Accent}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+    <SolidColorBrush x:Key="LightBrush" Color="{StaticResource Light}"/>
+    <SolidColorBrush x:Key="HeadingBrush" Color="{StaticResource Heading}"/>
+    <SolidColorBrush x:Key="SubheadingBrush" Color="{StaticResource Subheading}"/>
+    <SolidColorBrush x:Key="BodyBrush" Color="{StaticResource Body}"/>
+    <SolidColorBrush x:Key="LinkBrush" Color="{StaticResource Link}"/>
+    <SolidColorBrush x:Key="DangerBrush" Color="{StaticResource Danger}"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource Warning}"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource Success}"/>
+    <SolidColorBrush x:Key="InfoBrush" Color="{StaticResource Info}"/>
+    <SolidColorBrush x:Key="Gray1Brush" Color="{StaticResource Gray1}"/>
+    <SolidColorBrush x:Key="Gray2Brush" Color="{StaticResource Gray2}"/>
+    <SolidColorBrush x:Key="Gray3Brush" Color="{StaticResource Gray3}"/>
+    <SolidColorBrush x:Key="Gray4Brush" Color="{StaticResource Gray4}"/>
+    <SolidColorBrush x:Key="Gray5Brush" Color="{StaticResource Gray5}"/>
+    <SolidColorBrush x:Key="Gray6Brush" Color="{StaticResource Gray6}"/>
+
+</ResourceDictionary>

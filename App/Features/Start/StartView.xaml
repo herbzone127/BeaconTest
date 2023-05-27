@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Features.Start.StartView"
+             xmlns:vm="clr-namespace:App.Features.Start"
+                    
+            >
+    <StackLayout Orientation="Vertical" Padding="20">
+       
+        <Button Text="View BarChart" Command="{Binding GotoBarChartView}"/>
+        <ListView ItemsSource="{Binding WeatherForecasts,Mode=OneWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            
+                            <Label TextColor="Black" Text="{Binding Date,StringFormat='Date: {0} '}"/>
+                            <Label  TextColor="Black" Text="{Binding TemperatureC,StringFormat='Temprature: {0}'}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
